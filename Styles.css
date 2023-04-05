@@ -1,0 +1,69 @@
+/* font-family: 'Merriweather Sans', sans-serif; */
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    background-color: #222738;
+    color:#6E7888;
+}
+
+span{
+    position: relative;
+    top:10px;
+    font-size: 50px;
+    padding-left:30px;
+}
+
+p{
+    margin-top:0px;
+}
+
+p:hover
+{
+    color:white;
+}
+
+div:hover{
+    color:white
+}
+
+button{
+    position:absolute;
+    left:31%;
+    top:15%;
+    /* transform:rotate(270deg); */
+    color:#181825;
+    background-color:#6E7888;
+    border:none;
+    border-radius: 50px;
+    padding:10px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+button:hover{
+    background-color: white;
+}
+
+#board{
+    padding-top:6%;
+}
+
+#Score{
+    position:absolute;
+    right:34%;
+    top:15.2%;
+    font-size: 1.8rem;
+    /* transform:rotate(270deg); */
+}
+
+#Score1{
+    position:absolute;
+    right:30.8%;
+    top:15%;
+    font-size:2rem;
+}
+
+.disable-scrolling{
+    height:100%;
+    overflow:hidden;
+}
